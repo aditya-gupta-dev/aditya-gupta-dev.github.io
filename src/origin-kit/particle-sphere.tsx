@@ -332,9 +332,6 @@ export default function ParticleSphereRefactor(__props: ParticleSphereRefactorPr
         container.appendChild(canvas)
         rendererRef.current = renderer
 
-        // Parse color
-        const colorObj = new Color(sphereColor)
-
         // Create particles evenly distributed on sphere surface
         const vertices = []
 
@@ -358,9 +355,6 @@ export default function ParticleSphereRefactor(__props: ParticleSphereRefactorPr
             ? new Color(resolvedSphereColor)
             : new Color(sphereRgba.r, sphereRgba.g, sphereRgba.b)
         const particleOpacity = sphereRgba.a
-
-        // Red color for displaced particles
-        const redColor = new Color(1, 0, 0)
 
         for (let i = 0; i < particlesCount; i++) {
             // Use golden angle spiral for even distribution

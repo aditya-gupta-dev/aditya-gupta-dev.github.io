@@ -3,6 +3,7 @@
 //   overrides={{}}
 //   __curationVersion={1}
 import React, { useEffect, useRef, useCallback, useState } from "react"
+const RenderTarget = { current: () => "preview", canvas: "canvas" }
 // Shown when no image is uploaded.
 const DEFAULT_IMAGE =
     "https://imagedelivery.net/IEUjvl3YUlxY-MrTpOAWDQ/3fb4a247-64e9-4c54-2391-86598eebfe00/w=800"
@@ -63,9 +64,7 @@ function getNextZIndex(): number {
 
 // Tweakables from original
 const DRAG_TILT_SENSITIVITY = 3
-const DRAG_MAX_TILT_DEG = 30
 const DRAG_TILT_SMOOTHING = 0.05
-const SHEEN_STRENGTH = 0.6
 const SHEEN_TILT_SHIFT = 0.05
 const SHEEN_TILT_DEADZONE = 0.035
 const ANIM_SPEED = 1.92
@@ -249,35 +248,13 @@ function parseColorToRgb(input?: string): [number, number, number] {
  * @framerIntrinsicHeight 400
  * @framerDisableUnlink
  */
-const ELEVATION_DEFAULT = 0.12 // how much the sticker scales/lifts during peel animation
+
 const STATIC_SHADOW_DEFAULT = "0px 1px 2px 0px rgba(0, 0, 0, 0.30)"
 const DYNAMIC_SHADOW_DEFAULT = "0px 13px 14px 0px rgba(0, 0, 0, 0.30)"
 
 // Property panel uses 0–1 (elevation) and 0.1–1 (tilt); map to internal ranges
-const TILT_DISPLAY_MIN = 0.1
-const TILT_DISPLAY_MAX = 1
-const TILT_INTERNAL_MIN = 0.5
-const TILT_INTERNAL_MAX = 20
 const ELEVATION_INTERNAL_MAX = 0.3
 
-function mapTiltDisplayToInternal(display: number): number {
-    const d = Math.max(TILT_DISPLAY_MIN, Math.min(TILT_DISPLAY_MAX, display))
-    const t = (d - TILT_DISPLAY_MIN) / (TILT_DISPLAY_MAX - TILT_DISPLAY_MIN)
-    return TILT_INTERNAL_MIN + t * (TILT_INTERNAL_MAX - TILT_INTERNAL_MIN)
-}
-
-function mapElevationDisplayToInternal(display: number): number {
-    const d = Math.max(0, Math.min(1, display))
-    return d * ELEVATION_INTERNAL_MAX
-}
-
-// Default display values for property controls (map from internal defaults)
-const TILT_DEFAULT_DISPLAY =
-    TILT_DISPLAY_MIN +
-    ((DRAG_TILT_SENSITIVITY - TILT_INTERNAL_MIN) /
-        (TILT_INTERNAL_MAX - TILT_INTERNAL_MIN)) *
-        (TILT_DISPLAY_MAX - TILT_DISPLAY_MIN)
-const ELEVATION_DEFAULT_DISPLAY = ELEVATION_DEFAULT / ELEVATION_INTERNAL_MAX
 
 // Helper to parse CSS box-shadow into drop-shadow parameters
 // box-shadow: offset-x offset-y blur spread color
