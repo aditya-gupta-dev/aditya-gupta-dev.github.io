@@ -7,6 +7,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { LinkedIn } from "@/svgs/linkedin";
 import { Threads } from "@/svgs/threads";
 import { Facebook } from "@/svgs/facebook";
+import { xAI as XIcon } from "@/svgs/x";
 
 interface SocialHandle {
     url: string;
@@ -45,6 +46,12 @@ const social_handles: SocialHandle[] = [
         username: "cto.adi",
         label: "Facebook",
         icon: <Facebook/>
+    }, 
+    { 
+        url: "https://x.com/adi_builds", 
+        label: "X(twitter)",
+        username: "adi_builds",
+        icon: <XIcon/>
     }
 ]
 
