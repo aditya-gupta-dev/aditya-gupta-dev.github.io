@@ -4,6 +4,7 @@ import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
 import "./index.css";
 import App from "./App.tsx";
 import Home from "./pages/Home.tsx";
+import Links from "./pages/Links.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  { 
+    path: "/links", 
+    element: <Links/>, 
+  }, 
   {
     path: "*",
     element: <Navigate to="/" replace />,
