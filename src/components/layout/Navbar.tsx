@@ -33,7 +33,7 @@ export function Navbar() {
   };
 
   return (
-    <div className="absolute bottom-6 md:bottom-auto md:top-6 w-full flex justify-center z-50 px-4">
+    <div className="fixed bottom-6 md:bottom-auto md:top-6 w-full flex justify-center z-50 px-4">
       <Menubar className="w-full md:w-auto justify-between md:justify-center gap-4 md:gap-12 px-4 py-3 sm:px-6 sm:py-3 space-x-0 h-auto">
         <div className="flex items-center">
           <DropdownMenu>
@@ -44,9 +44,11 @@ export function Navbar() {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start" className="w-48">
-              <DropdownMenuItem className="cursor-pointer">
-                <HomeIcon className="size-4 mr-2" />
-                Home
+              <DropdownMenuItem className="cursor-pointer" asChild>
+                <Link to="/" className="w-full flex items-center">
+                  <HomeIcon className="size-4 mr-2" />
+                  Home
+                </Link>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem className="cursor-pointer" disabled>
@@ -57,8 +59,8 @@ export function Navbar() {
                 <Info className="size-4 mr-2" />
                 About
               </DropdownMenuItem>
-              <DropdownMenuItem className="cursor-pointer">
-                <Link to="/links" className="flex flex-row gap-x-2">
+              <DropdownMenuItem className="cursor-pointer" asChild>
+                <Link to="/links" className="w-full flex items-center">
                   <Mail className="size-4 mr-2" />
                   Links
                 </Link>
