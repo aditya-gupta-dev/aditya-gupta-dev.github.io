@@ -18,6 +18,12 @@ const getVisitorInfo = () => {
     do_not_track: navigator.doNotTrack === "1",
     cpu_cores: navigator.hardwareConcurrency || "unknown",
     device_memory_gb: nav.deviceMemory || "unknown",
+    platform: navigator.platform || "unknown",
+    vendor: navigator.vendor || "unknown",
+    color_depth: screen.colorDepth || "unknown",
+    touch_support: navigator.maxTouchPoints > 0,
+    dark_mode: window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches,
+    online_status: navigator.onLine,
   };
 };
 
