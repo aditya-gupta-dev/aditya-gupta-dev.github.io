@@ -1,5 +1,5 @@
-#firebase 
-.firebaserc 
+#firebase
+.firebaserc
 .firebase
 # Logs
 logs
@@ -11,7 +11,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
 
