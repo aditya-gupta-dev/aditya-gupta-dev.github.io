@@ -1,0 +1,48 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "prologue",
+  "order": 20,
+  "chapterId": "beginning",
+  "layout": "standard",
+  "footerLabel": "THE PROLOGUE",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "CHAPTER I · THE BEGINNING",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Hello, fellow\ntraveller."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "paragraph",
+      "text": "I’m Aditya, a developer who loves getting under the hood of things — from the pixels on your screen to the systems that make them work.",
+      "style": "drop-cap"
+    },
+    {
+      "type": "paragraph",
+      "text": "I build across the stack: web experiences, native apps, automation pipelines, and the occasional window manager from scratch.",
+      "style": "body"
+    },
+    {
+      "type": "paragraph",
+      "text": "Currently studying Computer Science at Lovely Professional University, turning curiosity into things you can actually use.",
+      "style": "body"
+    },
+    {
+      "type": "note",
+      "symbol": "✧",
+      "text": "Some collect stories.\nI like to build mine."
+    },
+    {
+      "type": "contents",
+      "title": "WITHIN THESE PAGES",
+      "chapterIds": ["craft", "creations", "journey", "honours"]
+    }
+  ]
+}

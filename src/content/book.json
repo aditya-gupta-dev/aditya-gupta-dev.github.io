@@ -1,0 +1,31 @@
+{
+  "$schema": "./book.schema.json",
+  "runningTitle": "The chronicles of Aditya",
+  "sourceUrl": "https://github.com/aditya-gupta-dev/aditya-gupta-dev.github.io",
+  "chapters": [
+    {
+      "id": "beginning",
+      "title": "The beginning"
+    },
+    {
+      "id": "craft",
+      "title": "The craft"
+    },
+    {
+      "id": "creations",
+      "title": "The creations"
+    },
+    {
+      "id": "journey",
+      "title": "The journey"
+    },
+    {
+      "id": "honours",
+      "title": "The honours"
+    },
+    {
+      "id": "next-chapter",
+      "title": "The next chapter"
+    }
+  ]
+}

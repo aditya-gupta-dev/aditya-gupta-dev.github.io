@@ -1,0 +1,64 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "workbench",
+  "order": 40,
+  "chapterId": "craft",
+  "layout": "standard",
+  "footerLabel": "THE WORKBENCH",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "AN INVENTORY OF POSSIBILITIES",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Beyond\nthe interface."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "entry",
+      "title": "Infrastructure & platforms",
+      "meta": "03 / KEEPING THINGS RUNNING",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "GCP, AWS, Kubernetes, Firebase, Convex, GitHub, Sentry, PostHog, Plausible, and GSC.",
+          "style": "body"
+        }
+      ]
+    },
+    {
+      "type": "entry",
+      "title": "At the workbench",
+      "meta": "04 / THE EVERYDAY ESSENTIALS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Linux, Vim, Docker, Bun, PostgreSQL, SQLite, Redis, FFmpeg, and Ollama.",
+          "style": "body"
+        }
+      ]
+    },
+    {
+      "type": "entry",
+      "title": "The human side",
+      "meta": "05 / BETTER TOGETHER",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Communication, leadership, teamwork, analytical thinking, and social media marketing.",
+          "style": "body"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "symbol": "⚒",
+      "text": "Learn the tool.\nUnderstand the system."
+    }
+  ]
+}

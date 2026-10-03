@@ -1,0 +1,59 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "native-projects",
+  "order": 60,
+  "chapterId": "creations",
+  "layout": "standard",
+  "footerLabel": "SELECTED WORKS",
+  "blocks": [
+    {
+      "type": "entry",
+      "title": "X11 Window Manager",
+      "meta": "02 / C · X11 · CMAKE · LINUX / JUN 2026",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A dynamic tiling window manager built from the ground up. Minimal, configurable at source, and designed for keyboard-driven workflows.",
+          "style": "body"
+        },
+        {
+          "type": "paragraph",
+          "text": "Custom Xlib tiling algorithms and a native C status bar for real-time hardware monitoring.",
+          "style": "body"
+        },
+        {
+          "type": "metric",
+          "value": "12 MB",
+          "label": "memory footprint"
+        }
+      ]
+    },
+    {
+      "type": "entry",
+      "title": "Android Notification Tracker",
+      "meta": "03 / KOTLIN · SQLITE · AI / JUN 2026",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An offline-first app that saves notifications, summarises the daily clutter with AI, and reveals patterns in your data.",
+          "style": "body"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jetpack Compose, a custom SQLite engine, and real-time PostgreSQL sync.",
+          "style": "body"
+        },
+        {
+          "type": "metric",
+          "value": "100,000+",
+          "label": "background events / day"
+        },
+        {
+          "type": "paragraph",
+          "text": "99.99% recovery · Sub-second UI rendering",
+          "style": "small-note"
+        }
+      ]
+    }
+  ]
+}

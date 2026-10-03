@@ -1,0 +1,58 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "contact",
+  "order": 120,
+  "chapterId": "next-chapter",
+  "layout": "standard",
+  "footerLabel": "UNTIL NEXT TIME",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "SEND A RAVEN",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Find me\nin the world."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "contacts",
+      "items": [
+        {
+          "eyebrow": "01 / EMAIL",
+          "label": "adityagupta@tutanota.de ↗",
+          "href": "mailto:adityagupta@tutanota.de"
+        },
+        {
+          "eyebrow": "02 / GITHUB",
+          "label": "aditya-gupta-dev ↗",
+          "href": "https://github.com/aditya-gupta-dev"
+        },
+        {
+          "eyebrow": "03 / LINKEDIN",
+          "label": "Let’s connect ↗",
+          "href": "https://www.linkedin.com/in/aditya-gupta-oss/"
+        },
+        {
+          "eyebrow": "04 / THE FULL STORY",
+          "label": "Download my résumé ↓",
+          "href": "resume"
+        },
+        {
+          "eyebrow": "05 / THIS PORTFOLIO",
+          "label": "View the source on GitHub ↗",
+          "href": "https://github.com/aditya-gupta-dev/aditya-gupta-dev.github.io"
+        }
+      ]
+    },
+    {
+      "type": "page-link",
+      "label": "↶ Back to the beginning",
+      "pageId": "title"
+    }
+  ]
+}

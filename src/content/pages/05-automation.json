@@ -1,0 +1,67 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "automation",
+  "order": 50,
+  "chapterId": "creations",
+  "layout": "standard",
+  "footerLabel": "SELECTED WORKS",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "CHAPTER III · THE CREATIONS",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Made with\ncuriosity."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "entry",
+      "title": "Social Media Automation",
+      "meta": "01 / GO · DOCKER · AWS · FFMPEG / MAY 2026",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An AI-powered CLI pipeline for concurrent video downloading, audio-video merging, and looped content creation.",
+          "style": "body"
+        },
+        {
+          "type": "paragraph",
+          "text": "Built with Go and Cobra, YouTube OAuth2 integration, caching, and containerised workflows.",
+          "style": "body"
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "3.52M+",
+              "label": "organic views"
+            },
+            {
+              "value": "260K+",
+              "label": "watch hours"
+            },
+            {
+              "value": "7",
+              "label": "channels"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Reaching 15.3K+ subscribers through automated content generation.",
+          "style": "small-note"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "label": "Explore my GitHub ↗",
+      "href": "https://github.com/aditya-gupta-dev"
+    }
+  ]
+}

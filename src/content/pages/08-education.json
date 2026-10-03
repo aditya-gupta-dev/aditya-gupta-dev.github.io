@@ -1,0 +1,62 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "education",
+  "order": 80,
+  "chapterId": "journey",
+  "layout": "standard",
+  "footerLabel": "THE FOUNDATIONS",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "ALWAYS A STUDENT",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Pages of\nlearning."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "entry",
+      "title": "Lovely Professional University",
+      "meta": "AUG 2025 — PRESENT / PHAGWARA, PUNJAB",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bachelor of Technology\nComputer Science and Engineering",
+          "style": "body"
+        },
+        {
+          "type": "metric",
+          "value": "8.56",
+          "label": "CGPA"
+        }
+      ]
+    },
+    {
+      "type": "entry",
+      "title": "Don Bosco Senior Secondary School",
+      "meta": "MAR 2024 — MAY 2025 / GORAKHPUR, UP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Intermediate",
+          "style": "body"
+        },
+        {
+          "type": "metric",
+          "value": "69%",
+          "label": "percentage"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Every project adds something the classroom can’t. Every lesson makes the next project better.",
+      "style": "small-note"
+    }
+  ]
+}

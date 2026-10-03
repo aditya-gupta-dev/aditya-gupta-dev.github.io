@@ -1,0 +1,58 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "experience",
+  "order": 70,
+  "chapterId": "journey",
+  "layout": "standard",
+  "footerLabel": "IN THE FIELD",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "CHAPTER IV · THE JOURNEY",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Learning\nby doing."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "entry",
+      "title": "IGNITE",
+      "meta": "SPORTS CLUB / LIVE BROADCAST PRODUCTION",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Orchestrated a live cricket auction broadcast using OBS Studio, bringing scene transitions, dynamic overlays, and multiple sources together in real time.",
+          "style": "body"
+        },
+        {
+          "type": "paragraph",
+          "text": "Used engagement data to improve streaming performance and audience interaction.",
+          "style": "body"
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "+56%",
+              "label": "concurrent viewers"
+            },
+            {
+              "value": "+16%",
+              "label": "subscriber growth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "symbol": "✦",
+      "text": "Good systems work.\nGreat ones bring people together."
+    }
+  ]
+}

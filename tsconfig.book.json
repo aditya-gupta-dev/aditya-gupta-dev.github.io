@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true
+  },
+  "include": ["src/content/**/*.ts", "src/components/book/**/*.tsx", "src/pages/Home.tsx"]
+}

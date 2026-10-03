@@ -1,10 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
-import "./index.css";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
+import "./base.css";
 import App from "./App.tsx";
 import Home from "./pages/Home.tsx";
-import Links from "./pages/Links.tsx";
 
 const router = createBrowserRouter([
   {
@@ -15,9 +18,11 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      { 
-        path: "links", 
-        element: <Links/>, 
+      {
+        path: "links",
+        lazy: async () => ({
+          Component: (await import("./pages/Links.tsx")).default,
+        }),
       },
       {
         path: "*",
@@ -30,5 +35,5 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>
+  </StrictMode>,
 );

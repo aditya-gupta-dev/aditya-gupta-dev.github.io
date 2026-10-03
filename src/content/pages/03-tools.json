@@ -1,0 +1,72 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "tools",
+  "order": 30,
+  "chapterId": "craft",
+  "layout": "standard",
+  "footerLabel": "THE TOOLBOX",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "CHAPTER II · THE CRAFT",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Tools of\nthe trade."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "paragraph",
+      "text": "Different problems call for different tools. These are the ones I bring to the workbench.",
+      "style": "body"
+    },
+    {
+      "type": "entry",
+      "title": "The languages",
+      "meta": "01 / THE FOUNDATIONS",
+      "blocks": [
+        {
+          "type": "skills",
+          "items": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Go",
+            "Rust",
+            "C++",
+            "Java",
+            "Kotlin",
+            "C#",
+            "pgSQL"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entry",
+      "title": "The frameworks",
+      "meta": "02 / THE BUILDING BLOCKS",
+      "blocks": [
+        {
+          "type": "skills",
+          "items": [
+            "React",
+            "Next.js",
+            "React Native",
+            "Svelte",
+            "tRPC",
+            "Drizzle",
+            "Wails",
+            "Actix",
+            "Fiber",
+            "Clerk"
+          ]
+        }
+      ]
+    }
+  ]
+}

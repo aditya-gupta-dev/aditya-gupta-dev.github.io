@@ -1,0 +1,46 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "invitation",
+  "order": 110,
+  "chapterId": "next-chapter",
+  "layout": "standard",
+  "footerLabel": "AN OPEN INVITATION",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "CHAPTER VI · THE NEXT CHAPTER",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Let’s build\nsomething."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "paragraph",
+      "text": "Have an interesting problem, a project in mind, or a curiosity we share? I’d love to hear about it.",
+      "style": "body"
+    },
+    {
+      "type": "illustration",
+      "name": "castle",
+      "small": true
+    },
+    {
+      "type": "paragraph",
+      "text": "The best stories start\nwith a simple hello.",
+      "style": "cover-quote"
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "paragraph",
+      "text": "THE NEXT PAGE IS STILL UNWRITTEN",
+      "style": "edition"
+    }
+  ]
+}

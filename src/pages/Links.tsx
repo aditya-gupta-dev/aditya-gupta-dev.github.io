@@ -1,3 +1,4 @@
+import "../index.css";
 import { Label } from "@/components/ui/8bit/label";
 import { Card, CardContent } from "@/components/ui/8bit/card";
 import { Instagram } from "@/svgs/instagram";

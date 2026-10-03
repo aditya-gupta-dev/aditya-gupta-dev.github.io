@@ -1,0 +1,47 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "title",
+  "order": 10,
+  "chapterId": "beginning",
+  "layout": "cover",
+  "footerLabel": "THE TITLE PAGE",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A DEVELOPER’S FIELD JOURNAL",
+      "style": "eyebrow"
+    },
+    {
+      "type": "flourish",
+      "text": "✦"
+    },
+    {
+      "type": "heading",
+      "level": "title",
+      "text": "Aditya\nGupta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Developer. Tinkerer. Builder.",
+      "style": "cover-subtitle"
+    },
+    {
+      "type": "illustration",
+      "name": "castle",
+      "small": false
+    },
+    {
+      "type": "paragraph",
+      "text": "A curious mind.\nA keyboard. An endless quest.",
+      "style": "cover-quote"
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "paragraph",
+      "text": "VOLUME I · THE JOURNEY SO FAR",
+      "style": "edition"
+    }
+  ]
+}

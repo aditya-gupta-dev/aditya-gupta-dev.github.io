@@ -5,10 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "build:optimize": "tsc -b && vite build --minify terser",
+    "build": "bun run content:check && bun run typecheck && vite build",
+    "build:optimize": "npm run build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "content:check": "bun run scripts/content.ts",
+    "content:schemas": "bun run scripts/content.ts --write",
+    "test:content": "bun --test scripts/content.test.ts",
+    "typecheck": "tsc -b && tsc -p tsconfig.book.json"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.9",

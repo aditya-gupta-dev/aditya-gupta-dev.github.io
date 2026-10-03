@@ -1,0 +1,48 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "debate",
+  "order": 100,
+  "chapterId": "honours",
+  "layout": "standard",
+  "footerLabel": "BEYOND THE KEYBOARD",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "MORE THAN CODE",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "Finding\nmy voice."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "award",
+      "medal": "III",
+      "title": "National Space Day\nDebate",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "THIRD PLACE",
+          "style": "eyebrow"
+        },
+        {
+          "type": "ornament"
+        },
+        {
+          "type": "paragraph",
+          "text": "A campus-wide debate competition, putting public speaking and argumentation to the test.",
+          "style": "body"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "symbol": "✧",
+      "text": "Ideas deserve to be built.\nAnd sometimes, spoken aloud."
+    }
+  ]
+}

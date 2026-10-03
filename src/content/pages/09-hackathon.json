@@ -1,0 +1,53 @@
+{
+  "$schema": "../page.schema.json",
+  "id": "hackathon",
+  "order": 90,
+  "chapterId": "honours",
+  "layout": "standard",
+  "footerLabel": "MILESTONES",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "CHAPTER V · THE HONOURS",
+      "style": "eyebrow"
+    },
+    {
+      "type": "heading",
+      "level": "chapter",
+      "text": "A few quests\ncompleted."
+    },
+    {
+      "type": "ornament"
+    },
+    {
+      "type": "award",
+      "medal": "I",
+      "title": "Inter-College\nITM Hackathon",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FIRST PLACE",
+          "style": "eyebrow"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gorakhpur",
+          "style": "body"
+        },
+        {
+          "type": "ornament"
+        },
+        {
+          "type": "paragraph",
+          "text": "One solo developer. Teams of six.\nA first-place finish.",
+          "style": "body"
+        },
+        {
+          "type": "paragraph",
+          "text": "A test of full-stack autonomy, rapid execution, and making an idea real.",
+          "style": "body"
+        }
+      ]
+    }
+  ]
+}
