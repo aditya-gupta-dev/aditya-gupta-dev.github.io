@@ -8,6 +8,7 @@
 
 @theme inline {
     --color-arch: #1894d4;
+    --color-terminal-foreground: #fff;
     --font-heading: var(--font-sans);
     --font-sans: 'Geist Variable', sans-serif;
     --font-terminal: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, monospace;

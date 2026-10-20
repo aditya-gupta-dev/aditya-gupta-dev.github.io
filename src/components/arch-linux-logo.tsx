@@ -45,7 +45,7 @@ export function ArchLinuxLogo() {
       ref={artRef}
       role="img"
       aria-label="Arch Linux logo"
-      className="m-0 w-fit select-none font-mono text-[clamp(0.25rem,min(2.25vw,2svh),0.875rem)] leading-none tracking-normal text-arch"
+      className="m-0 w-fit select-none font-mono text-[clamp(0.25rem,min(2.25vw,calc((100svh-14rem)/28)),0.875rem)] leading-none tracking-normal text-arch"
     >
       {frame(0)}
     </pre>
